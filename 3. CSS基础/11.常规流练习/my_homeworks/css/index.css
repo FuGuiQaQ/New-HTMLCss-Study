@@ -1,0 +1,68 @@
+body{
+    background-color: #4d4a40;
+    
+}
+.head{
+    width:auto;
+    height: 30px;
+    background-color:black;
+}
+.white{
+    padding-top: 30px;
+    background-color: #fff;
+    width: 1713px;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.blue-head{
+    border: 5px solid #14414e;
+    text-align: center;
+    margin: 0 -34px;
+    color: #fff;
+    background-color: #267890;
+    height: 140px;
+}
+.blue-head h2{
+    margin-top: 10px;
+    font-size: 42px;
+}
+.blue-head span {   
+    display: inline-block;
+    margin-top: 37px;
+}
+/* 链接未访问后设置颜色 */
+.blue-head span a:visited{
+    color: #dbdbdb;
+}
+/* 链接hover状态下的颜色 */
+.blue-head span a:hover{
+    color: #fff;
+}
+/* 链接访问过后的颜色 */
+.blue-head span a:link{
+    color: #dbdbdb;
+}
+/* 设置a标签的下划线 */
+.blue-head span a {
+    text-decoration: underline;
+}
+.dashboard{
+    margin: 30px;
+    width: 1541px;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+    height: 60px;
+    line-height: 50px;
+}
+p{
+    line-height: 2;
+    width: 1541px;
+}
+.text{
+    margin: 30px;
+}
+.dashboard h3 {
+    margin-top: 5px;
+    font-size: 32px;
+}

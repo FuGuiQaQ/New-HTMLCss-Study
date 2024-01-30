@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont{
+            background-color: aqua;
+            padding: 30px;
+
+        }
+        .item{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            margin: 6px;
+            float: left;
+            
+        }
+        /* .clear-fix{
+            clear: both;
+        } */
+        .clear-fix::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cont clear-fix">
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <div class="item"></div>
+        <!-- <div class="clear-fix"></div> -->
+    </div>
+</body>
+</html>

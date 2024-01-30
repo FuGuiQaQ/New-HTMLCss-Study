@@ -1,0 +1,38 @@
+body{
+    background-color: #4d4a40;
+    line-height: 2;
+    min-width: 1500px;
+}
+.white{
+    width: 90%;
+    background-color: #fff;
+    margin: 20px auto;
+    padding-top: 30px;
+}
+.white .head{
+    color: #fff;
+    background-color: #267890;
+    border: 5px solid #14414e;
+    text-align: center;
+    margin: 0 -34px;
+}
+.white .head  h1{
+    font-size: 42px;
+    font-weight: bold;
+}
+.white h2 {
+    font-size: 34px;
+    font-weight: bold;
+    border-top: 1px dashed;
+    border-bottom: 1px dashed;
+}
+.white .action {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.white div p {
+    margin: 1em;
+}
+

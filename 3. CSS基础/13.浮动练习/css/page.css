@@ -1,0 +1,13 @@
+/* 多页面的公用样式 */
+.page{
+    margin: 2em 0;
+    text-align: center;
+}
+.page a{
+    border: 1px solid #d8d8d8;
+    /* background-color: #ef4238; */
+    padding: 5px 10px ;
+}
+.page a:hover{
+    border: 1px solid #ef4238;
+}
