@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .radio{
+            width: 10px;
+            height: 10px;
+            border: 1px solid #008c8c;
+            border-radius: 50%;
+            cursor: pointer;
+            position: relative;
+        }
+        .radio.checked::after{
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            background-color: #008c8c;
+            border-radius: 50%;
+            left: 2.5px;
+            top: 2.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="radio checked">
+
+    </div>
+</body>
+</html>

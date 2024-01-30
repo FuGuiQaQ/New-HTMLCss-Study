@@ -1,0 +1,75 @@
+input{
+    border: 1px solid gray;
+    width: 250px;
+    padding: 5px;
+    height: 20px;
+}
+h1{
+    text-align: center;
+}
+.Sing{
+text-align: center;
+}
+.Sing label{
+    height: 50px;
+    display: block;
+}
+.display-block{
+    display: block;
+}
+.Sing label {
+   line-height: 50px;
+}
+
+.Sing .padding-left input{
+    width: 171px;
+}
+
+.Sing .padding-left,.padding-right{
+    padding :  0 70px;
+    position: relative;
+}
+.Sing .padding-left select{
+    border: 1px solid gray;
+    padding: 6px 0;
+   
+}
+.Sing .padding-left a {
+    font-size: 10px;
+    padding-left: 200px;
+    margin-top: -20px;
+}
+.Sing label:nth-child(4) button {
+    width: 73px;
+    height: 35px;
+} 
+.Sing .input-size input{
+    width: 50px;
+}
+.Sing .padding-right{
+    padding-right: 70px;
+    margin-top: 5px;
+}
+.Sing .padding-right input{
+width: 174px;
+}
+.Sing .input-size{
+    font-size: 10px;
+    padding-left: 100px;
+    line-height: normal;
+    height: 30px;
+}
+.Sing .input-size input {
+    width: 10px;
+    height: 10px;
+ 
+  
+}
+.Sing label:last-child button{
+    width: 267px;
+    height: 30px;
+    background-color: lightblue;
+}
+.Sing label:last-child{
+    line-height: normal;
+}
