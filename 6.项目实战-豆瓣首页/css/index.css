@@ -1,0 +1,336 @@
+input{
+    width: 263px;
+    height: 30px;
+    border: 1px solid #ccc;
+}
+button{
+    background-color: #00B51D;
+    font-size: 12px;
+    border-radius: 2px;
+    width: 118px;
+    height: 30px;
+    color: white;
+}
+input::placeholder{
+    color: #ccc;
+}
+.app .header-top{
+    background-color: #EDF4EC;
+    height: 34px;
+    position: relative;
+}
+.app .header-top .header-top-img {
+    height: 20px;
+    width: 102px;
+    background: url(../img/logo_db.png) no-repeat ;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    margin-left: 13px;
+}
+.app .header{
+    height: 88px;
+    line-height: 88px;
+  /* background-color: lightblue; */
+  position: relative;
+}
+.app .header .left {
+    line-height: 46px;
+    width: 383px;
+    height: 46px;
+    position: relative;
+    top: 25px;
+    left: 410px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+.app .header .left .text{
+    width: 73px;
+    height: 27px;
+    background: url(../img/sitename.png) no-repeat;
+    background-size:contain;
+    display: inline-block;  
+}
+.app .header .left .input{
+    height: 27px;
+    width: 282px;
+    margin-left: 28px;
+    margin-top: -3px;
+
+}
+.app .header .left div{
+    float: left;
+}
+
+.app .header .left .input input{
+    width: 252px;
+    padding: 5px;
+    box-sizing: border-box;
+    border-right: none;
+    position: absolute;
+
+}
+.app .header .left .input .search-btn{
+    line-height: 30px;
+    padding-left: 6px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-left: none;
+    float: right;
+    box-sizing: border-box;
+    /* background-color: white; */
+}
+.app .header .right{ 
+    line-height: 88px;
+    height: 88px;
+    position: absolute;
+    top: 0;
+    right: 420px;
+}
+.app .header .right .right-ul>li {
+    margin-top: 4px;
+    float: left;
+    margin-left: 15px;
+    font-size: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.app .wrapper{
+    line-height: 305px;
+    width: 100%;
+    height: 305px;
+    background-color: #edf4ed;
+}
+.app .wrapper .content {
+    text-align: center;
+    width: 70%;
+    height: 100%;
+    /* background-color: lightblue; */
+    margin: 0 auto;
+}
+.app .wrapper .bgc-img{
+   width: 675px;
+   background: url(../img/1771365ca98ig9er706.jpg) no-repeat;
+   background-size: 106% 100%;
+   /* background-size: contain; */
+   
+}
+.app .wrapper .content .Download{
+    width: 200px;
+    line-height: 305px;
+    position: relative;
+  
+
+}
+.app .wrapper .content div{
+    float: left;
+    height: 305px;
+}
+.app .wrapper .content .Download .top{
+    width: 100%;
+    height: 40%;
+    
+    position: relative;
+    line-height: 20px;
+}
+.app .wrapper .content .Download .top a{
+    position: absolute;
+    color: #111;
+    font-size: 25px;
+    left: 0;
+    bottom: 0;
+}
+.app .wrapper .content .Download .bottom{
+    width: 200px;
+    height: 183px;
+   
+    line-height: 183px;
+    position: relative;
+}
+.app .wrapper .content .Download .bottom *{
+    position: absolute;
+}
+.app .wrapper .content .Download .bottom button{
+    left: 0;
+    top: 30px;
+}
+.app .wrapper .content .Download .bottom p{
+    color: #00B51D;;
+    top: -46px;
+    right: 43px;
+    font-size: 30px;
+}
+.app .wrapper .content .login{
+    width: 300px;
+    /* background-color: yellow; */
+}
+.app .wrapper .content .login .top{
+    width: 100%;
+   
+    height: 80px; 
+}
+.app .wrapper .content .login .top .login-in{
+    width: 100%;
+    height: 60px;
+   
+}
+.app .wrapper .content .login .top .login-in .erweima{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+.app .wrapper .content .login .top .login-in .erweima .tren {
+    right: 0;
+    width: 0;
+    height: 0;
+    border-width: 15px ;
+    border-style: solid;
+    border-color: transparent transparent #edf4ed #edf4ed;
+    z-index: 1;
+    position: absolute;
+}
+.app .wrapper .content .login .top .login-in .erweima p{
+    color: #00B51D;
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: -137px;
+    font-weight: bold;
+}
+.app .wrapper .content .login .top .login-in .login-in-item{
+    width: 100%;
+    height: 30px;
+ 
+}
+.app .wrapper .content .login .top .login-in .login-in-item .login-user{
+    width: 50%;
+    height: 100%;
+   
+    line-height: 30px;
+    font-size: 12px;
+    border-bottom: 1px solid black;
+}
+.app .wrapper .content .login .top .login-in .login-in-item .login-password{
+    width: 50%;
+    height: 100%;
+  
+    line-height: 30px;
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+}
+.app .wrapper .content .login .top .read{
+  
+    width: 300px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.app .wrapper .content .login .top .read span{
+    color: #ccc;
+}
+.app .wrapper .content .login .top .read span a{
+    color: #00B51D;
+}
+.app .wrapper .content .login .bottom{
+    width: 300px;
+    height: 225px;
+    line-height: normal;
+}
+.app .wrapper .content .login .bottom .input-phone{
+    /* background-color: antiquewhite; */
+    margin-top: 10px;
+    height: 35px;
+    width: 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: white;
+    line-height: 30px;
+    border-radius: 3px;
+ }
+ .app .wrapper .content .login .bottom .input-phone input{
+    margin-left: 10px;
+    width: 241px;
+    border: none;
+    height: 25px;
+   
+ }
+     
+    
+ .app .wrapper .content .login .bottom .input-phone:after{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 20px;
+    border-left: 1px solid #ccc;
+    position: absolute;
+    top: 8px;
+    left: 42px;
+ }
+ .app .wrapper .content .login .bottom .input-password{
+    margin-top: 10px;
+    height: 35px;
+    width: 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: white;
+    line-height: 30px;
+    border-radius: 3px;
+ }
+ .app .wrapper .content .login .bottom .input-password input{
+    width: 200px;
+   text-align: left;
+    border: none;
+ }
+ .app .wrapper .content .login .bottom .input-password span{
+    font-size: 14px;
+    color: #00B51D;
+ }
+ .app .wrapper .content .login .bottom  .buttom-login{
+    margin-top: 10px;
+    width: 100%;
+    height: 77px;
+    text-align: right;
+ }
+ .app .wrapper .content .login .bottom  .buttom-login button{
+    width: 300px;
+    height: 34px;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 34px;
+ }
+ .app .wrapper .content .login .bottom  .buttom-login span{
+    font-size: 14px;
+    color: #00B51D;
+    margin-top: 5px;
+    display: block;
+ }
+ .app .wrapper .content .login .bottom  .buttom-login::after{
+    content: "";
+    display: block;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    margin-top: 12px;
+ }
+ .app .wrapper .content .login .bottom .icon-wb{
+    width: 300px;
+    height: 48px;
+    text-align: left;
+    font-size: 12px;
+    color: #ccc;
+ }
+ .app .wrapper .content .login .bottom .icon-wb i{
+    font-size: 23px;
+    margin-left: 10px;
+    display: inline-block;
+    margin-top: 10px;
+ }
+ .app .wrapper .content .login .bottom .icon-wb span{
+    display: inline-block;
+ }
